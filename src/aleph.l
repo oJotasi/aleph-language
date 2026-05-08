@@ -45,7 +45,6 @@
 "let" { return LET; }
 "define" { return DEF; }
 "return" { return RETURN; }
-"mati gay?" { return V;}
 
 "print" { return PRINT; }
 
