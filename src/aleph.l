@@ -57,3 +57,7 @@ $[a-zA-Z0-9]+ { yylval.s = lookup(yytext); return ID; }
 "\n" { return EOL; }
 [ \t] {}
 %%
+
+int yywrap() {
+    return 1;
+}
